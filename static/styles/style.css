@@ -896,7 +896,7 @@ footer {
   }
 
   .typewriter {
-  white-space: wrap;
+  white-space: normal;
   margin-top: 50px;
 }
 
