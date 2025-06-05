@@ -810,6 +810,12 @@ footer {
     gap: 1rem;
   }
 
+  .typewriter {
+    white-space: normal;
+    margin-top: 50px;
+  }
+
+
   nav ul {
     flex-direction: column;
     text-align: center;
