@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проекты Нового Рассвета — Opinion Sky и OpenTranshuman. Присоединяйся к созданию будущего!">
+    <meta name="keywords" content="трансгуманизм, Opinion Sky, OpenTranshuman, ИИ, биотехнологии">
+    <title>Проекты | Новый Рассвет</title>
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">New Dawn</div>
+            <input type="checkbox" id="burger-toggle">
+            <label for="burger-toggle" class="burger">☰</label>
+            <ul>
+                <li><a href="index.html" aria-label="Главная страница">Главная</a></li>
+                <li><a href="mission.html" aria-label="Наша миссия">Миссия</a></li>
+                <li class="dropdown">
+                    <a href="projects.html" class="active" aria-label="Наши проекты">Проекты</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#opinion-sky">Opinion Sky</a></li>
+                        <li><a href="#opentranshuman">OpenTranshuman</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" aria-label="Наше сообщество">Сообщество</a></li>
+                <li><a href="contacts.html" aria-label="Связаться с нами">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class=>Наши проекты</h1>
+                <p>Мы создаём инструменты, которые помогают людям развивать мышление, выходить за пределы ограничений и участвовать в формировании будущего. Каждый проект — это шаг к обществу, где технологии служат не контролю, а свободе.</p>
+            </div>
+        </section>
+        <section class="projects" id="opinion-sky">
+            <h2>Opinion Sky</h2>
+            <div class="project-card">
+                <p>ИИ-платформа для анализа настроений отзывов и комментариев. Уже помогла эко-активисту понять аудиторию за 24 часа.</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 40%;"></div>
+                </div>
+                <p class="progress-text">Прогресс: 40%</p>
+                <a href="#join-beta" class="btn scroll-to">Стать бета-тестером</a>
+            </div>
+        </section>
+        <section class="projects" id="opentranshuman">
+            <h2>OpenTranshuman</h2>
+            <div class="project-card">
+                <p>Открытая база знаний о трансгуманизме. Собираем материалы для будущего человечества.</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 5%;"></div>
+                </div>
+                <p class="progress-text">Прогресс: 5%</p>
+                <a href="#" class="btn secondary">Внести вклад</a>
+            </div>
+        </section>
+        <section class="join-beta" id="join-beta">
+            <h2>Стань бета-тестером Opinion Sky</h2>
+            <p>Тестируй ИИ-платформу и формируй будущее. Твой фидбэк важен!</p>
+            <form class="subscription-form centered" id="beta-form">
+                <input type="email" placeholder="Ваш email" required aria-label="Введите ваш email">
+                <button type="submit" class="btn">Записаться</button>
+            </form>
+            <p id="beta-message" class="form-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Новый Рассвет. Будущее — это ты.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
