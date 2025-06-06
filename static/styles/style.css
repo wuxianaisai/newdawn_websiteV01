@@ -810,6 +810,10 @@ footer {
     gap: 1rem;
   }
 
+  h1 {
+    margin-top: 50px;
+  }
+
   .typewriter {
     white-space: normal;
     margin-top: 50px;
